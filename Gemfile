@@ -42,6 +42,10 @@ gem 'line-bot-api'
 
 gem 'calil'
 
+gem 'rakuten_web_service'
+
+gem 'rack-timeout', require: 'rack/timeout/base'
+
 group :production do
   gem 'pg'
 end
